@@ -1,9 +1,12 @@
 #ifndef _GRAPH_H_
 #define _GRAPH_H_
-
+/*
+ * Author: Mante Luo
+ * Email: mante.luo@gmail.com
+ */
 #include <stdio.h>
 #include <stddef.h>
-#include <malloc.h>
+#include <stdlib.h>
 #include <string.h>
 #define NAME_SIZE 5
 #define INPUT_SIZE 100
@@ -83,6 +86,7 @@ void DFS(graph *g);
 
 void shortest_path(graph *g);
 void topo_sort(graph *g);
+
 /* queue */
 queue      *buy_queue();
 queue_node *buy_queue_node();

@@ -1,5 +1,8 @@
 #include "graph.h"
 
+/*
+ * Input as (3 2 5 6) like a lisp list
+ */
 void create_graph(graph *g)
 {
     char input[INPUT_SIZE];
